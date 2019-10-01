@@ -22,6 +22,7 @@ public class HibernateMain
        p.setBrand("JBL");
        p.setPrice(5000);
        s.save(p);
+       System.out.println("Product is saved");
        
        t.commit();
      s.close();
